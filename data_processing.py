@@ -159,6 +159,7 @@ movie_table.insert_row(dict)
 fantasy_filtered2 = movie_table.filter(lambda x: x['Genre'] == 'Fantasy')
 print(len(fantasy_filtered2.table))
 
+
 #update the  'Year' for the  'Film' :  'A Serious Man' to '2022'
 
 movie_table.update_row('Film', 'A Serious Man', 'Year', '2022')
